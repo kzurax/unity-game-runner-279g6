@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9026b90b6243412195afea4b2b89421c, type: 3}
+  m_Name: Road Decorator
+  m_EditorClassIdentifier: 
+  obstaclesList:
+  - {fileID: 6521429985199451809, guid: 63c7434b7c0434076adfb2cca8711e88, type: 3}
+  - {fileID: 5005660517193008058, guid: 5c84e57ddd3924b61985d044d9450778, type: 3}
+  - {fileID: 6481712275672892264, guid: 6e59f3bdd9c644950aa8e496801a1ea7, type: 3}
+  coinsList:
+  - {fileID: 4402774781681037171, guid: 4f3220ca4a4944411be033fe1f2ca5bf, type: 3}
+  coinVariants:
+  - rarity: 1
+    effect: 0
+    count: 1
+  - rarity: 0.2
+    effect: 1
+    count: 1
+  - rarity: 0.3
+    effect: 2
+    count: 1
+  - rarity: 0.1
+    effect: 3
+    count: 1
+  defaultPoolCapacity: 3
+  _defaultCfg:
+    fillRate: {x: 0.7, y: 1}
+    fillRateCoins: {x: 0.8, y: 1}
+    snapStep: 2
